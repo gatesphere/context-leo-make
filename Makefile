@@ -14,7 +14,7 @@ PROJECT = project_$(PROJNAME).tex
 PRODUCTS = $(sort $(dir $(wildcard prd_$(PROJNAME)_*/)))
 
 ## sources
-SRCS = $(wildcard $(patsubst %,%prd*.tex,$(PRODUCTS)))
+SRCS = $(wildcard $(patsubst %,%prd_$(PROJNAME)_*.tex,$(PRODUCTS)))
 
 ## targets
 TARGETS = $(SRCS:.tex=.pdf)

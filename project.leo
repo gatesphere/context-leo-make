@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="peckj.20130614104551.2206"><vh>@file README.md</vh></v>
-<v t="peckj.20130612082757.3105"><vh>Environment and Project files</vh>
+<v t="peckj.20130612082757.3105" a="E"><vh>Environment and Project files</vh>
 <v t="peckj.20130614104551.2205"><vh>@file Makefile</vh></v>
 <v t="peckj.20130612082757.3089"><vh>@file env_test.tex</vh></v>
 <v t="peckj.20130612082757.3090"><vh>@file project_test.tex</vh></v>
