@@ -20,6 +20,7 @@ SRCS = $(wildcard $(patsubst %,%prd_$(PROJNAME)_*.tex,$(PRODUCTS)))
 TARGETS = $(SRCS:.tex=.pdf)
 
 .PHONY: clean default varcheck product help
+.DEFAULT_GOAL := help
 
 # product shortcut (here there be dragons)
 ifeq (product,$(firstword $(MAKECMDGOALS)))
